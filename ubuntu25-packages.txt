@@ -1,0 +1,145 @@
+[base]
+zsh
+vim                     # Text editor for CLI editing
+curl                    # Transfer data via HTTP, HTTPS, FTP, etc.
+wget                    # Non-interactive network downloader
+htop                    # Interactive process viewer
+tree                    # Recursive directory listing
+jq                      # JSON processor for scripts
+tmux                    # Terminal multiplexer
+less                    # Pager for text files
+file                    # Detect file type
+man-db                  # Manual page database
+ca-certificates          # Common CA certificates
+lsb-release              # Distribution info utility
+net-tools                # Legacy network utilities (ifconfig, netstat)
+lsof                     # List open files
+rsync                    # Fast incremental file transfer
+coreutils                # GNU core file utilities
+findutils                # find/xargs
+parted                   # Disk partition manipulator
+fdisk                    # Disk partition table editor
+dfc                      # Disk space usage visualizer
+usbutils                 # USB device utilities (lsusb)
+pciutils                 # PCI device utilities (lspci)
+
+[admin]
+lshw                    # Hardware information lister
+hwinfo                  # Comprehensive hardware probe
+lm-sensors              # Monitor temps & voltages
+nvme-cli                # Manage NVMe drives
+smartmontools           # SMART status monitoring
+iotop                   # Display per-process I/O usage
+iftop                   # Real-time bandwidth monitor
+nload                   # Console network traffic monitor
+sysstat                 # sar/iostat/vmstat tools
+powertop                # Power consumption tuner
+gparted                 # GUI partition editor
+udisks2                 # Disk management backend
+btop                    # Modern resource monitor
+
+[network]
+openssh-server          # SSH server daemon
+openssh-client          # SSH client tools
+sshpass                 # Non-interactive password auth for SSH
+nmap                    # Network scanner
+iperf3                  # Network throughput tester
+nfs-common               # NFS client utilities
+cifs-utils               # SMB/CIFS mounting tools
+
+[dev]
+git                     # Distributed version control
+gh
+build-essential         # Compiler/build toolchain meta-package
+make                    # Build automation tool
+cmake                   # Cross-platform build system
+pkg-config              # Manage compiler/linker flags
+python3                 # Python interpreter
+python3-pip             # Python package installer
+python3-venv            # Virtual environment support
+openjdk-21-jdk          # Java 21 JDK
+maven                   # Java build automation
+gradle                  # Modern Java build system
+nodejs                  # JavaScript runtime
+npm                     # Node package manager
+shellcheck              # Static analysis for shell scripts
+shfmt                   # Shell script formatter
+sqlite3                 # SQLite CLI
+libsqlite3-dev          # SQLite development headers
+postgresql-client       # PostgreSQL client tools
+mysql-client            # MySQL/MariaDB client
+
+[archive]
+zip                     # Create ZIP archives
+unzip                   # Extract ZIP archives
+tar                     # Tarball archiver
+gzip                    # Gzip compressor
+bzip2                   # bzip2 compressor
+xz-utils                # xz compressor
+zstd                    # zstandard compressor
+p7zip-full              # 7-Zip archiver
+p7zip-rar               # 7-Zip RAR plugin
+rar                     # Create RAR archives
+unrar                   # Extract RAR archives
+lrzip                   # Long Range ZIP for large files
+lzip                    # LZ-based compressor
+lzop                    # Fast compressor
+lrzsz                   # X/Y/ZMODEM transfer utilities
+zpaq                    # Incremental journaling compressor
+cabextract              # Extract Microsoft CAB files
+arj                     # Legacy ARJ archive support
+unar                    # Universal archive extractor
+atool                   # Frontend for many archivers
+#bsdtar                  # libarchive-based tar
+libarchive-tools         # Extra archive format support
+cpio                    # Copy/archive tool
+
+[fs]
+rsync                   # File sync utility
+rclone                  # Cloud storage sync
+sshfs                   # Mount via SSH
+fuse3                   # Filesystem in userspace
+encfs                   # Encrypted FUSE filesystem
+acl                     # Access control list tools
+
+[hardware]
+fwupd                   # Firmware update daemon
+dmidecode               # BIOS/UEFI info lister
+acpi                    # Power management info
+lm-sensors              # Sensor monitoring
+fancontrol              # Control fan speeds
+#hddtemp                 # Show HDD/SSD temps
+smartmontools           # SMART diagnostics
+nvme-cli                # NVMe management
+hdparm                  # SATA drive settings
+sg3-utils               # SCSI utilities
+#sgpio                   # Drive-bay LED control
+#sas2ircu                # LSI SAS controller tool
+#sas3ircu                # LSI SAS3 controller tool
+#megacli                 # Broadcom MegaRAID CLI
+#storcli                 # Avago/LSI RAID CLI
+ethtool                 # NIC settings viewer
+ipmitool                # IPMI/BMC management
+flashrom                # Flash BIOS/firmware
+corectrl                # AMD GPU control
+radeontop               # Radeon GPU monitor
+intel-gpu-tools         # Intel GPU debug utilities
+cpufrequtils            # CPU frequency control
+linux-tools-generic     # perf and kernel tools
+s-tui                   # Terminal CPU temp monitor
+stress-ng               # Stress testing utility
+nvtop                   # NVidia GPU monitor
+
+[network-tools-advanced]
+bmon                    # Bandwidth monitor
+
+[cli-productivity]
+bat                     # cat with syntax highlighting
+#exa                     # Modern replacement for ls
+broot                   # Interactive tree directory viewer
+tmux                    # Terminal multiplexer
+delta                   # Better git diff viewer
+#tldr                    # Simplified man pages
+btop                    # Modern system monitor
+ncdu                    # Disk usage analyzer
+parallel                # Execute jobs in parallel
